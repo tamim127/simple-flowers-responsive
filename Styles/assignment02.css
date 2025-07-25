@@ -53,3 +53,69 @@ nav ul li {
 li a {
     text-decoration: none;
 }
+
+/* shared styles */
+
+.dark-1 {
+    color: #8987A1;
+}
+
+.dark-2 {
+    color: black;
+    font-weight: bold;
+}
+
+.dark-3 {
+    color: #252432;
+    font-weight: 600;
+}
+
+.dark-4 {
+    color: black;
+}
+
+.text-pmy {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text-color {
+    color: #E95A08;
+}
+
+.text-color-2 {
+    color: #ffffff;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-items: center;
+    margin: 120px auto;
+    max-width: 71.25rem;
+    max-height: 28.81rem;
+}
+
+.banner-content {
+    margin-top: 162px;
+}
+
+.banner-title {
+    margin: 0px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-description {
+    margin-top: 13px;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-img {
+    margin-top: 106px;
+    width: 35.62rem;
+    height: 22.18rem;
+}
