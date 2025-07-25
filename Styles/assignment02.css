@@ -19,3 +19,37 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+/* header styles */
+
+.header {
+    display: flex;
+    gap: 50px;
+    max-width: 71.25rem;
+    margin: 30px auto;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin-left: 2px;
+    width: 8.4rem;
+    height: 5.1rem;
+}
+
+/* navbar styles */
+
+ul {
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
